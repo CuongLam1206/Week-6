@@ -51,19 +51,14 @@ I'm a **3rd-year Computer Science student** at **Hanoi University of Industry** 
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CuongLam1206&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CuongLam1206&layout=compact&langs_count=8&theme=tokyonight"/>
-  
-</div>
 
-<div align="center">
-  
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CuongLam1206&theme=tokyonight&hide_border=false)
-  
-</div>
+![](https://github-readme-stats.vercel.app/api?username=CuongLam1206&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)
 
-> **Note:** Your GitHub stats will display automatically once you upload this README to your profile repository!
+![](https://github-readme-streak-stats.herokuapp.com/?user=CuongLam1206&theme=tokyonight&hide_border=false)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=CuongLam1206&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
 
 ---
 

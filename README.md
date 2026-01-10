@@ -52,18 +52,18 @@ I'm a **3rd-year Computer Science student** at **Hanoi University of Industry** 
 
 <div align="center">
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&langs_count=8&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=CuongLam1206&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=CuongLam1206&layout=compact&langs_count=8&theme=tokyonight"/>
   
 </div>
 
 <div align="center">
   
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=false)
+  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=CuongLam1206&theme=tokyonight&hide_border=false)
   
 </div>
 
-> **Note:** Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username in the URLs above to display your stats correctly.
+> **Note:** Your GitHub stats will display automatically once you upload this README to your profile repository!
 
 ---
 

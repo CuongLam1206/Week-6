@@ -42,16 +42,6 @@ Quyết định này có hiệu lực thực hiện từ học kỳ 2 năm học
 Trưởng các đơn vị, viên chức, người lao động và sinh viên có liên quan chịu trách nhiệm thi hành quyết định này./.
 
 ---
-
-**Nơi nhận:**
-- Như điều 3;
-- Hội đồng trường (để báo cáo);
-- Các Phó Hiệu trưởng;
-- Lưu: VT, ĐT.
-
-**HIỆU TRƯỞNG**
-
----
 **Nơi nhận:**
 - Như điều 3;
 - Hội đồng trường (để báo cáo);

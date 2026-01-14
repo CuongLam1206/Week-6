@@ -1,645 +1,178 @@
-# QUYẾT ĐỊNH SỐ: QD-1532-24-9-25 BAN HÀNH QUY ĐỊNH THỰC HIỆN ĐỒ ÁN/KHÓA LUẬN TỐT NGHIỆP (ĐA/KLTN)
-
-**Trường Đại học Công nghiệp Hà Nội**
+Dưới đây là toàn bộ nội dung văn bản quy định của Trường Đại học Công nghiệp Hà Nội, được chuyển đổi nguyên văn, không tóm tắt, không lược bỏ để bạn có thể sử dụng làm dữ liệu sạch (clean data) cho việc embedding hoặc lưu trữ.
 
 ---
 
-## **ĐIỀU 1. PHẠM VI ĐIỀU CHỈNH**
+# BỘ CÔNG THƯƠNG
 
-Quy định này quy định về việc thực hiện, hướng dẫn, đánh giá đồ án (ĐA), khóa luận tốt nghiệp (KLTN) trình độ đại học tại Trường Đại học Công nghiệp Hà Nội.
+## TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI
 
----
+**Số: 197/QĐ-ĐHCN** 
 
-## **ĐIỀU 2. HIỆU LỰC THI HÀNH**
+**CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM**
 
-Quyết định này có hiệu lực thực hiện từ học kỳ 2 năm học 2025-2026 và thay thế Quyết định số 1077/QĐ-ĐHCN ngày 30/8/2023 của Hiệu trưởng Trường Đại học Công nghiệp Hà Nội ban hành Quy định thực hiện đồ án, khóa luận tốt nghiệp trình độ đại học tại Trường Đại học Công nghiệp Hà Nội.
 
----
+**Độc lập - Tự do - Hạnh phúc** 
 
-## **ĐIỀU 3. TRÁCH NHIỆM THI HÀNH**
+*Hà Nội, ngày 10 tháng 03 năm 2021* 
 
-Các đơn vị, viên chức, người lao động và sinh viên có liên quan chịu trách nhiệm thi hành quyết định này.
+QUYẾT ĐỊNH 
 
-**Nơi nhận:**
-- Như điều 3;
-- Hội đồng trường (để báo cáo);
-- Các Phó Hiệu trưởng;
-- Lưu: VT, ĐT.
+**Ban hành Quy định tạm thời về kiểm soát và xử lý đạo văn trong đào tạo và nghiên cứu khoa học tại Trường Đại học Công nghiệp Hà Nội** 
 
----
+**HIỆU TRƯỞNG TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI** 
 
-## **ĐIỀU 4. TIÊU CHUẨN GIẢNG VIÊN HƯỚNG DẪN, PHẢN BIỆN ĐA/KLTN**
+Căn cứ Luật Sở hữu trí tuệ năm 2005, sửa đổi, bổ sung năm 2009 và năm 2019; Căn cứ Nghị định số 105/2006/NĐ-CP ngày 22 tháng 09 năm 2006 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ; Căn cứ Nghị định số 119/2010/NĐ-CP ngày 30 tháng 12 năm 2010 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 105/2006/NĐ-CP quy định chi tiết và hướng dẫn thi hành một số điều của Luật Sở hữu trí tuệ về bảo vệ quyền sở hữu trí tuệ và quản lý nhà nước về sở hữu trí tuệ; Căn cứ Nghị định số 22/2018/NĐ-CP ngày 23 tháng 02 năm 2018 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật sở hữu trí tuệ năm 2005 và Luật sửa đổi, bổ sung một số điều của Luật sở hữu trí tuệ năm 2009 về quyền tác giả, quyền liên quan; Căn cứ Quyết định số 4811/QĐ-BCT ngày 29/05/2014 của Bộ trưởng Bộ Công Thương về chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức Trường Đại học Công nghiệp Hà Nội; Căn cứ yêu cầu công tác đào tạo và nghiên cứu khoa học của Trường Đại học Công nghiệp Hà Nội; Xét đề nghị của ông Trưởng phòng Đào tạo. 
 
-1. Giảng viên tham gia hướng dẫn, phản biện ĐA/KLTN phải là viên chức giảng dạy hoặc lao động hợp đồng làm việc tại Trường Đại học Công nghiệp Hà Nội theo quy định của pháp luật và quy chế của Nhà trường.
-2. Có năng lực chuyên môn, hướng nghiên cứu phù hợp với nội dung đề tài hướng dẫn, phản biện.
-3. Các đơn vị quản lý sinh viên, các Trường thuộc hoặc trực thuộc Nhà trường (sau đây gọi chung là ĐVĐT) có thể mời người có đủ tiêu chuẩn, trình độ, năng lực chuyên môn theo tiêu chuẩn được quy định tại khoản 1 và khoản 2 điều này tham gia hướng dẫn ĐA/KLTN.
+**QUYẾT ĐỊNH:** 
+
+**Điều 1:** Ban hành kèm theo Quyết định này Quy định tạm thời về kiểm soát và xử lý đạo văn trong đào tạo và nghiên cứu khoa học tại Trường Đại học Công nghiệp Hà Nội. **Điều 2:** Quyết định này có hiệu lực từ ngày ký. **Điều 3:** Các Ông/bà Trưởng các đơn vị và toàn thể giảng viên, công chức, viên chức, người lao động, sinh viên, học viên, nghiên cứu sinh chịu trách nhiệm thi hành quyết định này./. 
+
+**HIỆU TRƯỞNG** *(Đã ký và đóng dấu)* **Trần Đức Quý** 
 
 ---
 
-## **ĐIỀU 5. QUY ĐỊNH VỀ SỐ LƯỢNG SINH VIÊN TRÊN MỖI GIẢNG VIÊN HƯỚNG DẪN**
+# QUY ĐỊNH TẠM THỜI
 
-1. Trưởng đơn vị quản lý sinh viên, Hiệu trưởng trường thuộc hoặc trực thuộc Nhà trường (sau đây gọi tắt là Trưởng ĐVĐT) căn cứ danh sách sinh viên thực hiện ĐA/KLTN và năng lực của GVHD để phân công sinh viên, nhóm sinh viên cho từng GVHD.
+## Về kiểm soát và xử lý đạo văn trong đào tạo và nghiên cứu khoa học tại Trường Đại học Công nghiệp Hà Nội
 
-2. Quy định về số lượng sinh viên trên mỗi GVHD như sau:
+*(Ban hành kèm theo Quyết định số: 197/QĐ-ĐHCN ngày 10 tháng 03 năm 2021 của Hiệu trưởng Trường Đại học Công nghiệp Hà Nội)* 
 
-| Trình độ GVHD | Khối ngành | Số lượng SV tối đa | Ghi chú |
-|--------------|------------|-------------------|---------|
-| Tiến sĩ | Kỹ thuật, Công nghệ | 20 SV | Trong đó ≤ 10 SV trình độ Kỹ sư |
-| Tiến sĩ | Các khối ngành khác | 25 SV | |
-| Thạc sĩ | Kỹ thuật, Công nghệ | 10 SV | |
-| Thạc sĩ | Các khối ngành khác | 15 SV | |
+**Điều 1. Mục đích, phạm vi và đối tượng áp dụng** 
 
----
+1. Quy định này nhằm nâng cao chất lượng, tính trung thực và giá trị của các sản phẩm học thuật tại Trường Đại học Công nghiệp Hà Nội (sau đây gọi là Trường) như: tiểu luận, bài tập lớn, đồ án/khóa luận tốt nghiệp, luận văn cao học, chuyên đề, tiểu luận tổng quan và luận án tiến sĩ; giáo trình, tài liệu tham khảo, bài giảng, bài báo, bài viết tham luận hội nghị khoa học, đề tài nghiên cứu khoa học (sau đây gọi chung là Sản phẩm học thuật). 
 
-## **ĐIỀU 6. NGÔN NGỮ DÙNG TRONG ĐA/KLTN**
 
-1. Ngôn ngữ sử dụng trong ĐA/KLTN là tiếng Việt. Trường hợp có nguyện vọng làm ĐA/KLTN bằng tiếng nước ngoài, sinh viên làm đơn đề nghị và gửi ĐVĐT xem xét quyết định.
-2. Trừ các trường hợp quy định tại khoản 1 Điều này, đối với các chương trình đào tạo bằng tiếng nước ngoài, chương trình dạy học bằng tiếng nước ngoài, chương trình trao đổi sinh viên với các cơ sở giáo dục nước ngoài và chương trình liên kết đào tạo, sinh viên dùng ngôn ngữ được quy định trong chương trình để thực hiện ĐA/KLTN.
+2. Văn bản này quy định cách thức quản lý, kiểm soát, phát hiện và hình thức xử lý hành vi đạo văn trong tất cả các sản phẩm học thuật trong quá trình đào tạo và nghiên cứu khoa học được thực hiện tại Trường. 
 
----
 
-## **CHƯƠNG II: THỰC HIỆN ĐA/KLTN**
+3. Đối tượng áp dụng: Quy định này áp dụng cho 3 nhóm đối tượng (được gọi chung là Tác giả) sau đây: a) Sinh viên, học viên, nghiên cứu sinh, thực tập sinh (sau đây gọi chung là Người học). b) Công chức, viên chức, người lao động đang công tác tại Trường. c) Các đối tượng khác có các sản phẩm học thuật được báo cáo, xuất bản, giảng dạy, trao đổi tại Trường. 
 
-### **ĐIỀU 7. CÔNG BỐ ĐỀ TÀI VÀ GIAO ĐỀ TÀI ĐA/KLTN**
 
-#### **1. Công bố đề tài ĐA/KLTN**
 
-**a) Điều kiện đề tài:**
-- Tính khoa học, tính thực tiễn.
-- Tính khả thi (SV hoàn thành trong thời gian quy định).
-- Không đề xuất đề tài biên soạn giáo trình, đề cương học phần.
-- Điều kiện khác (trang thiết bị, GVHD, kinh phí…).
+**Điều 2. Hành vi đạo văn** 
 
-**b) Xây dựng cơ sở dữ liệu đề tài:**
-- **Bước 1:** GV đủ tiêu chuẩn đề xuất chủ đề/hướng nghiên cứu.
-- **Bước 2:** Trưởng chương trình rà soát, tổng hợp, đánh giá.
-- **Bước 3:** Trưởng ĐVĐT hoặc Trưởng khoa phê duyệt, công bố trên ĐHĐT.
+1. Đạo văn là việc sử dụng có hoặc không có chủ ý những câu văn, đoạn văn, số liệu và ý tưởng của người khác vào sản phẩm học thuật của mình mà không có những chỉ dẫn hoặc không thừa nhận của tác giả đối với những nội dung đã trích dẫn. 
 
-**c) SV có thể đề xuất đề tài ngoài danh sách**, thông tin được cập nhật trên ĐHĐT và phải được Trưởng ĐVĐT hoặc Trưởng khoa chấp thuận.
 
-#### **2. Quy trình đăng ký và giao đề tài**
+2. Trong các sản phẩm học thuật nếu có các hình thức sau đây được xác định là hành vi đạo văn: a) Sử dụng toàn bộ hay một phần bài viết của người khác mà không có trích dẫn phù hợp; b) Dẫn giải, trình bày, sao chép, dịch đoạn văn hay ý tưởng của người khác mà không có trích dẫn phù hợp; c) Sử dụng tác phẩm, thiết kế, biểu đồ, hình ảnh, sơ đồ, công thức, số liệu, của người khác mà không nêu rõ nguồn; d) Trích dẫn phù hợp nhưng sử dụng nội dung trích dẫn chiếm phần lớn so với kết quả nghiên cứu trong công trình của tác giả; e) Không dẫn nguồn đã trích dẫn khi thay đổi từ ngữ, di chuyển từ, cụm từ, ý tưởng của tác giả khác, gắn các cụm từ của các nguồn khác nhau và chỉnh sửa lại trong bài viết, thay đổi từ ngữ hoặc cụm từ nhưng giữ nguyên cấu trúc của đoạn văn hoặc bài viết; f) Cung cấp không chính xác về tác giả, nguồn của thông tin trích dẫn; g) Sử dụng hơn 30% nội dung một công trình học thuật của chính mình vào công trình học thuật khác do mình là tác giả hoặc đồng tác giả (tự đạo văn). 
 
-| Bước | Thời gian | Nội dung công việc | Đơn vị thực hiện |
-|------|-----------|---------------------|------------------|
-| 1 | Trước 15 ngày làm việc | Mở lớp học phần ĐA/KLTN trên ĐHĐT | Phòng Đào tạo |
-| 2 | Trước 10 ngày làm việc | Công bố danh mục đề tài, mục tiêu, GVHD | ĐVĐT |
-| 3 | Trước 05 ngày làm việc | SV đăng ký lớp, chọn đề tài, GVHD trên ĐHĐT | Sinh viên |
-| 4 | Trước khi SV thực hiện | GVHD lập Phiếu giao đề tài (Phụ lục 04) gửi ĐVĐT phê duyệt | GVHD |
 
----
 
-### **ĐIỀU 8. HƯỚNG DẪN VÀ THỰC HIỆN ĐA/KLTN**
+**Điều 3. Các yêu cầu cơ bản để tránh lỗi đạo văn** 
 
-1. GVHD lập kế hoạch báo cáo tiến độ, kiểm tra tối thiểu **01 lần/tuần** trên ĐHĐT.
-2. GVHD quyết định thông qua ĐA/KLTN. Nếu không thông qua phải báo cáo Trưởng ĐVĐT, SV nhận điểm 0.
-3. Trường hợp bất khả kháng phải đổi đề tài/GVHD, Trưởng chương trình đề xuất, Trưởng ĐVĐT phê duyệt trên ĐHĐT.
+1. Sản phẩm học thuật là bài viết trình bày những luận điểm, phân tích, tổng hợp, kết quả nghiên cứu của tác giả. Khi trích dẫn thông tin của các tác giả khác để lý giải, so sánh, minh họa, đối chiếu những gì liên quan đến nghiên cứu trong đề tài của mình thì phải ghi rõ nguồn thông tin và tác giả đã được trích dẫn. 
 
----
 
-## **CHƯƠNG III: ĐÁNH GIÁ ĐA/KLTN**
+2. Để tránh vi phạm lỗi đạo văn, khi viết tác giả có thể thực hiện theo những hướng dẫn cơ bản sau đây: a) Thực hiện trích dẫn và lập danh mục tài liệu tham khảo theo quy định; b) Phải ghi rõ nguồn trích dẫn ngay trong bài viết hoặc ghi chú cuối trang (footnote) khi sử dụng từ ngữ, ý tưởng, công thức, số liệu, hình ảnh, biểu đồ, sơ đồ đã được phát hành trên bất kỳ phương tiện thông tin nào: tạp chí, sách, báo, chương trình máy tính, trang web, truyền hình, ...; 
+c) Khi cần trích dẫn nguyên văn thì thông tin đó phải được đặt trong dấu ngoặc kép và ghi nguồn trích dẫn. Việc trích dẫn này chỉ sử dụng khi câu văn, đoạn văn được trích dẫn khó có thể diễn đạt lại bằng ngôn từ riêng của mình; d) Các trường hợp khác chỉ lấy ý chính, nội dung chính, ý tưởng chính của người khác để viết lại, diễn đạt theo ngôn từ riêng của mình nhưng vẫn giữ nguyên ý nghĩa câu văn, đoạn văn của tác giả được trích dẫn và ghi rõ nguồn trích dẫn; e) Tự viết các ý tưởng khoa học bằng văn phong riêng của chính mình, không sử dụng công cụ sao chép trong bài viết. 
 
-### **ĐIỀU 9. HÌNH THỨC ĐÁNH GIÁ ĐA/KLTN**
 
-1. Các hình thức:
-   - Chấm ĐA/KLTN.
-   - Bảo vệ trực tiếp trước hội đồng.
-   - Bảo vệ trực tuyến trước hội đồng.
+3. Những điểm sau đây không nhất thiết phải ghi nguồn trích dẫn: a) Bản thân tác giả viết về kinh nghiệm cuộc sống, những quan sát, suy nghĩ, tư tưởng, kết luận về một chủ đề của chính mình; b) Khi thảo luận, phân tích, trình bày kết quả từ phỏng vấn, khảo sát, thí nghiệm của tác giả; c) Khi sử dụng các sản phẩm của chính tác giả có được từ các phương tiện nghe nhìn; d) Những thông tin thuộc về kiến thức phổ thông như: văn hóa dân gian, tập tục, truyền thống, huyền thoại, những dấu mốc lịch sử, những kiến thức phổ quát, những sự việc cơ bản hầu hết mọi người biết. 
 
-2. Hình thức đánh giá do **Trưởng chương trình đề xuất**, **Trưởng ĐVĐT quyết định** và công bố khi SV đăng ký.
 
----
 
-### **ĐIỀU 10. HỘI ĐỒNG ĐÁNH GIÁ ĐA/KLTN (HĐ)**
+**Điều 4. Phát hiện và xử lý lỗi đạo văn** 
 
-1. **Thành phần HĐ:**
-   - Tối thiểu 03 thành viên: Chủ tịch, Thư ký, người phản biện, ủy viên.
-   - GVHD có thể tham gia HĐ đề tài mình hướng dẫn.
-   - Số thành viên mời ngoài trường ≤ 02 người/HĐ.
+1. Để kiểm tra và phát hiện lỗi đạo văn, Trường chính thức áp dụng phần mềm kiểm tra đạo văn Turnitin trong phạm vi toàn trường cho tất cả các nhóm đối tượng nêu tại Khoản 3, Điều 1 của quy định này. 
 
-2. **Tiêu chuẩn thành viên:** Theo Điều 3.
 
-3. **Nhiệm vụ Chủ tịch HĐ:**
-   - Chủ trì, điều hành buổi đánh giá.
-   - Phân công, điều phối thành viên.
-   - Công bố kết quả, kết luận chất lượng.
-   - Kiểm tra, xác nhận điểm, hồ sơ.
-   - **GVHD không làm Chủ tịch HĐ** đề tài mình hướng dẫn.
+2. Các sản phẩm học thuật được xem là phạm lỗi đạo văn nếu vi phạm một trong các lỗi sau đây: 
 
-4. **Nhiệm vụ Thư ký HĐ:**
-   - Chuẩn bị tài liệu.
-   - Tổng hợp điểm, lập biên bản.
-   - Cập nhật điểm lên ĐHĐT.
 
----
+* Các hành vi được quy định tại Điều 2; 
 
-### **ĐIỀU 11. ĐÁNH GIÁ ĐA/KLTN**
 
-1. Mỗi ĐA/KLTN được đánh giá bởi một HĐ, ủy viên phản biện và GVHD.
-2. ĐVĐT xây dựng phiếu chấm chi tiết theo Phụ lục 06 và chuẩn đầu ra, gửi Trung tâm Khảo thí cùng danh sách HĐ.
+* Kết quả kiểm tra của Turnitin phát hiện có sao chép nguyên văn ít nhất một đoạn văn có 100 từ trở lên; 
 
----
 
-### **ĐIỀU 12. ĐIỂM ĐÁNH GIÁ ĐA/KLTN**
+* Kết quả kiểm tra của phần mềm Turnitin có tỷ lệ trùng lặp với các nguồn dữ liệu của tác giả khác vượt quá mức 1 quy định tại Mục a, Khoản 3. 
 
-#### **1. Cách tính điểm của HĐ**
 
-- Điểm HĐ = Trung bình cộng điểm các thành viên (làm tròn 1 chữ số thập phân).
-- Điểm của GVHD/phản biện khi tham gia HĐ được tính vào điểm HĐ.
 
-#### **2. Công thức tính điểm học phần ĐA/KLTN**
 
-\[
-\text{Điểm ĐA/KLTN} = 30\% \times \text{GVHD} + 20\% \times \text{PB} + 50\% \times \text{HĐĐG}
-\]
+3. Hình thức xử lý lỗi đạo văn: a) Định nghĩa mức độ trùng lặp của các sản phẩm học thuật: 
 
-**Trong đó:**
-- **HĐĐG:** Điểm chấm của Hội đồng.
-- **GVHD:** Điểm chấm của giảng viên hướng dẫn.
-- **PB:** Điểm chấm của người phản biện.
 
-**Quy định thống nhất điểm:**
-- HĐ thảo luận nếu điểm thành viên chênh lệch ≥ 2 điểm so với điểm tổng kết.
-- Điểm không công nhận nếu không thống nhất, không tính vào tổng kết.
 
----
+| STT | Nhóm đối tượng | Mức 1 | Mức 2 |
+| --- | --- | --- | --- |
+| 1 | Sinh viên đại học | 30% | 50% |
+| 2 | Học viên cao học | 25% | 50% |
+| 3 | Nghiên cứu sinh | 20% | 50% |
+| 4 | Đối tượng nêu tại Mục b và c, Khoản 3, Điều 1. | 20% | 50% |
+| 
 
-### **ĐIỀU 13. ĐIỀU KIỆN ĐỂ SINH VIÊN ĐƯỢC ĐÁNH GIÁ ĐA/KLTN**
+ |  |  |  |
 
-SV phải đáp ứng đủ:
-1. Nộp báo cáo ĐA/KLTN theo quy định (khoản 3 Điều 14).
-2. Được GVHD đồng ý thông qua (khoản 2 Điều 7).
-3. ĐA/KLTN không vi phạm đạo văn theo quy định của Trường.
+b) Đối với sản phẩm học thuật thuộc nhóm 1 bao gồm tiểu luận môn học, bài tập lớn, báo cáo thực tập tốt nghiệp, chuyên đề tiến sĩ, tiểu luận tổng quan: 
 
----
+* Viết và nộp lại sản phẩm học thuật: khi mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ nhất; 
 
-### **ĐIỀU 14. PHÚC TRA ĐA/KLTN**
 
-1. **Bảo vệ ĐA/KLTN:** SV được khiếu nại ngay sau khi HĐ công bố kết quả. Chủ tịch HĐ giải quyết trước khi kết thúc phiên.
-2. **Chấm ĐA/KLTN:** SV thực hiện khiếu nại phúc tra theo quy định. Trung tâm Khảo thí tiếp nhận và giải quyết.
+* Viết và nộp lại sản phẩm học thuật, trừ 25% điểm toàn bộ sản phẩm: khi mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ 2; 
 
----
 
-### **ĐIỀU 15. QUY TRÌNH ĐÁNH GIÁ ĐA/KLTN**
+* Nhận điểm 0 (điểm không) cho sản phẩm học thuật: khi mức độ trùng lặp từ Mức 2 trở lên hoặc mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ 3. 
+Đối với các sản phẩm học thuật là tiểu luận môn học, bài tập lớn cách tính số lần trùng lặp được xác định cho 01 học phần trong học kỳ của người học. Căn cứ vào đặc thù riêng biệt về nội dung và chủ đề của các sản phẩm học thuật này, giảng viên có thể đề xuất hình thức xử lý vi phạm khác với hình thức nêu trên (Trường hợp xử lý khác biệt giảng viên báo cáo đơn vị quản lý đào tạo, thông báo tới người học). 
 
-| Bước | Thời gian | Nội dung công việc | Đơn vị thực hiện |
-|------|-----------|---------------------|------------------|
-| 1 | Trước 03 tuần | Lập kế hoạch đánh giá | Trung tâm Khảo thí |
-| 2 | Trước 05 ngày làm việc | Thông báo danh sách HĐ, thời gian, địa điểm/link | Trung tâm Khảo thí |
-| 3 | Trước 07 ngày làm việc | SV nộp báo cáo ĐA/KLTN (Phụ lục 01) trên ĐHĐT | Sinh viên |
-| 4 | Trước 04 ngày làm việc | GVHD hoàn thành nhận xét, thông qua, gửi ĐVĐT | GVHD |
-| 5 | Trước 03 ngày làm việc | ĐVĐT gửi báo cáo + nhận xét GVHD cho HĐ & phản biện | ĐVĐT |
-| 6 | Trước 01 ngày làm việc | GVHD & phản biện cập nhật điểm trên ĐHĐT | GVHD, Phản biện |
-| 7 | Ngày đánh giá | Tổ chức đánh giá theo hình thức đã chọn | HĐ |
 
-**Lưu ý buổi bảo vệ trực tuyến:**
-- Phải ghi hình, ghi âm và lưu trữ trên ĐHĐT.
-- Phải có mặt ≥ 2/3 thành viên HĐ, bao gồm Chủ tịch và Thư ký.
+
+c) Đối với sản phẩm học thuật thuộc nhóm 2 bao gồm luận án tiến sĩ, luận văn cao học, đồ án/khóa luận tốt nghiệp: 
+
+* Viết và nộp lại sản phẩm học thuật: khi mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ nhất; 
+
+
+* Đình chỉ báo cáo 1 tháng tính từ thời điểm phát hiện, viết và nộp lại sản phẩm học thuật: khi mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ 2; 
+
+
+* Nhận điểm 0 (điểm không) cho sản phẩm học thuật: khi mức độ trùng lặp từ mức 2 trở lên hoặc mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ 3. 
+
+
+
+d) Đối với sản phẩm học thuật thuộc nhóm 3 gồm giáo trình, bài báo, báo cáo hội nghị khoa học, đề tài nghiên cứu khoa học: 
+
+* Viết và nộp lại sản phẩm học thuật: khi mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ nhất; 
+
+
+* Lập biên bản kết thúc, không công nhận các sản phẩm học thuật, không được bảo vệ, không được báo cáo, không đăng bài, chấm dứt hợp đồng, và các thủ tục khác liên quan: khi mức độ trùng lặp từ mức 2 trở lên hoặc mức độ trùng lặp từ mức 1 trở lên nhưng chưa đến mức 2 lần thứ 2. 
+
+
+
+**Điều 5. Trách nhiệm của các cá nhân, đơn vị liên quan** 
+
+1. Trách nhiệm của tác giả: Tác giả của các sản phẩm học thuật có trách nhiệm thực hiện nghiêm túc những điều khoản nêu trong quy định này và quy định của pháp luật liên quan. 
+
+
+2. Trách nhiệm của giảng viên: a) Hướng dẫn người học thực hiện quy định này và các quy định về trích dẫn để nâng cao tính trung thực trong học tập và nghiên cứu khoa học; b) Sử dụng phần mềm Turnitin để thẩm định, đánh giá mức độ đạo văn đối với các sản phẩm học thuật do mình giảng dạy, hướng dẫn, đánh giá, phản biện; c) Tự kiểm tra các sản phẩm học thuật của mình trước khi nộp cho đơn vị phụ trách, quản lý. 
+
+
+3. Trách nhiệm của công chức, viên chức, người lao động và người học: Thông báo và cung cấp những bằng chứng nghi ngờ đạo văn đến tác giả hoặc tới đơn vị có có liên quan. 
+
+
+4. Trách nhiệm của các Khoa, Viện, Trung tâm đào tạo và Phòng Khoa học Công nghệ: a) Phổ biến, quán triệt và hướng dẫn các tác giả tránh tình trạng đạo văn và thực hiện Quy định này để đảm bảo về sự trung thực trong học thuật; b) Sử dụng phần mềm Turnitin để phát hiện các trường hợp đạo văn đối với các sản phẩm học thuật và thực hiện xử lý theo quy định; c) Chịu trách nhiệm về kiểm định nội dung của các sản phẩm học thuật thuộc phạm vi quản lý của đơn vị; 
+
+
+5. Trách nhiệm của các đơn vị liên quan: a) Phòng Đào tạo là đơn vị đầu mối phối hợp với các đơn vị liên quan tổ chức triển khai sử dụng phần mềm Turnitin để kiểm tra và xử lý hành vi đạo văn trong hoạt động đào tạo và nghiên cứu khoa học; b) Trung tâm Khảo thí thực hiện kiểm tra ngẫu nhiên các sản phẩm học thuật thuộc nhóm 1 và nhóm 2 tại Mục b, c Khoản 3, Điều 4; c) Phòng Thanh tra giáo dục, phòng Công tác Sinh viên, phòng Tổ chức - Hành chính phối hợp với các đơn vị liên quan thực hiện xử lý các trường hợp vi lỗi đạo văn trong đào tạo và nghiên cứu khoa học theo Quy định này và các quy định của pháp luật liên quan; d) Trung tâm Đảm bảo chất lượng: 
+
+
+* Quản lý hệ thống phần mềm Turnitin, đảm bảo hệ thống hoạt động liên tục, ổn định. 
+
+
+* Lập quy trình kiểm soát và xử lý hành vi đạo văn, tổ chức tập huấn sử dụng phần mềm Turnitin, cung cấp và quản lý tài khoản, hỗ trợ kỹ thuật cho các đơn vị liên quan, giảng viên, người học, công chức, viên chức, người lao động. 
+
+
+
+
+
+**Điều 6. Điều khoản thi hành** 
+
+1. Quy định này được áp dụng cho các hoạt động đào tạo và nghiên cứu khoa học của Trường Đại học Công nghiệp Hà Nội kể từ học kỳ 1 năm học 2021-2022. 
+
+
+2. Việc điều chỉnh, bổ sung các điều khoản trong quá trình áp dụng do Hiệu trưởng quyết định./. 
+
+
 
 ---
 
-### **ĐIỀU 16. QUY ĐỊNH ĐỐI VỚI SINH VIÊN ĐÁNH GIÁ KHÔNG ĐẠT ĐA/KLTN**
-
-1. SV được đăng ký học phần thay thế (nếu có) hoặc liên hệ ĐVĐT đăng ký thực hiện lại ĐA/KLTN trong các đợt tiếp theo.
-2. ĐVĐT tiếp nhận yêu cầu và lập danh sách SV thực hiện lại theo quy định tại khoản 3 Điều 18.
-
----
-
-### **ĐIỀU 17. QUY ĐỊNH LƯU TRỮ**
-
-1. **Thư ký HĐ:** Chậm nhất 07 ngày sau đánh giá, cập nhật toàn bộ biên bản, hồ sơ, báo cáo lên ĐHĐT.
-   - Nếu HĐ yêu cầu chỉnh sửa, SV có 05 ngày để nộp lại báo cáo đã sửa + bản giải trình (Phụ lục 09).
-
-2. **GVHD:** Chậm nhất 07 ngày sau đánh giá, cập nhật thông tin ĐA/KLTN (Phụ lục 08) cho Chủ tịch HĐ đánh giá và xác nhận trên ĐHĐT.
-
-3. Thời gian lưu trữ và công khai theo quy định của Nhà trường và pháp luật.
-
----
-
-## **CHƯƠNG IV: TỔ CHỨC THỰC HIỆN**
-
-### **ĐIỀU 18. TRÁCH NHIỆM CỦA NHÀ TRƯỜNG**
-
-Bảo đảm chất lượng, quy trình và tính công bằng của hoạt động thực hiện ĐA/KLTN trong toàn trường.
-
----
-
-### **ĐIỀU 19. TRÁCH NHIỆM CỦA ĐVĐT**
-
-1. Thông báo công khai danh sách SV được thực hiện ĐA/KLTN.
-2. Hướng dẫn SV đăng ký học thay thế nếu chương trình có học phần thay thế.
-3. Lập đề nghị mở lớp và hướng dẫn SV không thực hiện ĐA/KLTN đăng ký học phần thay thế hoặc học cải thiện.
-4. Đề xuất danh sách SV đủ điều kiện, yêu cầu SV đăng ký lớp, chọn đề tài, GVHD trên ĐHĐT.
-5. Kiểm soát và phân công GVHD.
-6. Kiểm soát và bảo đảm tính trung thực học thuật.
-
----
-
-### **ĐIỀU 20. XỬ LÝ VI PHẠM**
-
-Tùy theo nội dung và mức độ vi phạm, cá nhân/đơn vị sẽ bị xử lý theo quy định của Nhà trường và pháp luật hiện hành.
-
----
-
-### **ĐIỀU 21. ĐIỀU KHOẢN THI HÀNH**
-
-1. Trưởng các đơn vị có trách nhiệm phổ biến Quy định này đến viên chức, người lao động và SV.
-2. Trong quá trình thực hiện, nếu phát sinh vướng mắc hoặc cần sửa đổi, bổ sung, các ĐVĐT gửi ý kiến về Phòng Đào tạo để tổng hợp, báo cáo Hiệu trưởng xem xét, quyết định.
-
----
-
-## **PHỤ LỤC**
-
-### **PHỤ LỤC 01: MẪU BÌA ĐA, KLTN**
-
-**Khổ 210 x 297 mm, in chữ nhũ**
-
-```
-BỘ CÔNG THƯƠNG
-TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI
-
-ĐA, KLTN ĐẠI HỌC ................................
-(ghi tên ngành học)
-
-TÊN ĐỀ TÀI ĐỒ ÁN, KHÓA LUẬN TỐT NGHIỆP
-
-GVHD: (Ghi học hàm, học vị. Họ và tên GVHD)
-
-Sinh viên: (Ghi họ và tên sinh viên)
-
-Mã số sinh viên: (Ghi mã sinh viên)
-
-Hà Nội - Năm
-```
-
----
-
-### **PHỤ LỤC 02: MẪU TRANG PHỤ BÌA**
-
-**Khổ 210 x 297 mm**
-
-```
-BỘ CÔNG THƯƠNG
-TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI
-
-ĐA, KLTN ĐẠI HỌC ................................
-
-TÊN ĐỀ TÀI ĐỒ ÁN, KHÓA LUẬN TỐT NGHIỆP
-
-Chuyên ngành: ................................
-Mã số: ................................
-
-GVHD: (Học hàm, học vị, họ tên)
-
-Sinh viên: (Họ tên)
-Mã SV: ....................
-Lớp: ....................
-
-Hà Nội - Năm
-```
-
----
-
-### **PHỤ LỤC 03: DANH SÁCH ĐỀ XUẤT ĐỀ TÀI TỐT NGHIỆP**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**DANH SÁCH ĐỀ XUẤT ĐỀ TÀI TỐT NGHIỆP NGÀNH ...**  
-**NĂM HỌC 20... - 20...**
-
-| STT | Người hướng dẫn | Tên ĐA/KLTN | Mục tiêu nghiên cứu | Các kết quả chính | Ghi chú |
-|-----|-----------------|-------------|---------------------|-------------------|---------|
-| 1   |                |             |                     |                   |         |
-| 2   |                |             |                     |                   |         |
-| 3   |                |             |                     |                   |         |
-| ... |                |             |                     |                   |         |
-
-**Hà Nội, ngày ... tháng ... năm 20...**  
-**TRƯỞNG ĐƠN VỊ**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 04: DANH SÁCH GIAO ĐỀ TÀI THỰC HIỆN ĐA/KLTN**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**DANH SÁCH GIAO ĐỀ TÀI THỰC HIỆN ĐA/KLTN**  
-**NGÀNH/CTĐT ...**
-
-| STT | Mã SV | Họ và tên | Lớp hành chính | Ngành | Khóa học | Tên đề tài | Người hướng dẫn |
-|-----|-------|-----------|----------------|-------|----------|------------|-----------------|
-| 1   |       |           |                |       |          |            |                 |
-| 2   |       |           |                |       |          |            |                 |
-| 3   |       |           |                |       |          |            |                 |
-| ... |       |           |                |       |          |            |                 |
-
-**Hà Nội, ngày ..... tháng ..... năm 20...**  
-**TRƯỞNG ĐƠN VỊ**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 05: PHIẾU GIAO ĐỀ TÀI ĐA/KLTN**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  
-**Độc lập - Tự do - Hạnh phúc**
-
-**PHIẾU GIAO ĐỀ TÀI ĐỒ ÁN/KHÓA LUẬN TỐT NGHIỆP**
-
-**Họ tên sinh viên:** .................................................  
-**Mã SV:** .................................  
-**Lớp:** .........................  
-**Ngành:** .................................................  
-**Khóa:** ..................  
-
-**Tên đề tài:** ....................................................................................
-
-**Mục tiêu đề tài:** (Các vấn đề ĐA/KLTN sẽ giải quyết, bám sát chuẩn đầu ra của học phần ĐA/KLTN quy định trong chương trình đào tạo)
-
-**Kết quả dự kiến:** (Liệt kê các nội dung, kết quả chính cần đạt được của ĐA/KLTN, phải bám sát mục tiêu đề tài)
-
-**Thời gian thực hiện:** từ .../..../20... đến .../.../20...
-
-**NGƯỜI HƯỚNG DẪN**  
-(Ký và ghi rõ họ tên)
-
-**TRƯỞNG ĐƠN VỊ**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 06: BẢN NHẬN XÉT, ĐÁNH GIÁ ĐA/KLTN**
-
-**BỘ CÔNG THƯƠNG**  
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  
-**Độc lập - Tự do - Hạnh phúc**
-
-**BẢN NHẬN XÉT, ĐÁNH GIÁ ĐA/KLTN**  
-**CỦA NGƯỜI HƯỚNG DẪN/NGƯỜI PHẢN BIỆN/HỘI ĐỒNG ĐÁNH GIÁ**  
-**NGÀNH/CTĐT ...**  
-*(Dành cho các chương trình đào tạo xây dựng theo chuẩn đầu ra)*
-
-**I. THÔNG TIN CHUNG**
-
-- **Người đánh giá:** ............................................
-- **Họ tên sinh viên:** ....................  
-- **Mã SV:** ....................
-- **Tên đề tài:** ............................................
-
-**II. ĐÁNH GIÁ**  
-*(Điểm từng tiêu chí và điểm cuối cùng làm tròn đến 1 chữ số thập phân)*
-
-| STT | Nội dung đánh giá | Điểm tối đa | Điểm đánh giá |
-|-----|-------------------|-------------|---------------|
-| 1   | Chuẩn đầu ra 1    |             |               |
-| 2   | Chuẩn đầu ra 2    |             |               |
-| 3   | Chuẩn đầu ra 3    |             |               |
-| ... | ...               |             |               |
-|     | **Tổng số**       |             |               |
-
-**III. CÂU HỎI, NHẬN XÉT**
-
-**Hà Nội, ngày ... tháng ... năm 20...**  
-**NGƯỜI ĐÁNH GIÁ**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 07: BIÊN BẢN TỔNG HỢP KẾT QUẢ ĐÁNH GIÁ ĐA/KLTN**
-
-**BỘ CÔNG THƯƠNG**  
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  
-**Độc lập - Tự do - Hạnh phúc**
-
-**BIÊN BẢN TỔNG HỢP KẾT QUẢ ĐÁNH GIÁ ĐỒ ÁN/KHÓA LUẬN TỐT NGHIỆP**
-
-**I. Thời gian và địa điểm**
-
-1. **Thời gian:** từ ... giờ ... đến ... giờ ... ngày ... / ... /20...
-2. **Địa điểm:** ............................................
-
-**II. Thành phần**
-
-1. **Chủ tịch:** ............................................
-2. **Thư ký:** ............................................
-3. **Ủy viên:** ............................................
-
-**III. Kết quả đánh giá hội đồng**
-
-| STT | Mã SV | Sinh viên | Điểm chấm của CBHD | Điểm chấm của PB | ĐTB của HĐ | Điểm học phần (thang điểm 10) | Điểm học phần (thang điểm chữ) |
-|-----|-------|-----------|---------------------|------------------|------------|-------------------------------|-------------------------------|
-| 1   |       |           |                     |                  |            |                               |                               |
-| 2   |       |           |                     |                  |            |                               |                               |
-| ... |       |           |                     |                  |            |                               |                               |
-
-**CHỦ TỊCH HỘI ĐỒNG**  
-(Ký và ghi rõ họ tên)
-
-**THƯ KÝ HỘI ĐỒNG**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 08: THÔNG TIN VỀ ĐỒ ÁN, KHÓA LUẬN TỐT NGHIỆP**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ: ....................**
-
-| Thứ tự | Mã SV | Họ và tên | Ngày sinh | Ngành/CTĐT | Tên đề tài (Tiếng Việt) | Tên đề tài (Tiếng Anh) | Quyết định giao đề tài (Số QĐ và ngày, tháng, năm) | Người hướng dẫn | Từ khóa (Việt) | Từ khóa (Anh) | Tóm tắt ĐA/KLTN (Việt) | Tóm tắt ĐA/KLTN (Anh) | Số QĐ HĐ | Ngày ký QĐ | Chủ tịch HĐ | Thư ký HĐ | UV phản biện | Ủy viên | Ủy viên |
-|--------|-------|-----------|-----------|------------|-------------------------|------------------------|---------------------------------------------------|-----------------|----------------|---------------|------------------------|------------------------|----------|------------|-------------|-----------|---------------|---------|---------|
-|        |       |           |           |            |                         |                        |                                                   |                 |                |               |                        |                        |          |            |             |           |               |         |         |
-
-**Hà Nội, ngày........tháng........năm ....**  
-**NGƯỜI LẬP**  
-**TRƯỞNG ĐƠN VỊ**
-
----
-
-### **PHỤ LỤC 09: BẢN GIẢI TRÌNH TIẾP THU CHỈNH SỬA ĐA/KLTN**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  
-**Độc lập - Tự do - Hạnh phúc**
-
-**BẢN GIẢI TRÌNH TIẾP THU CHỈNH SỬA ĐA/KLTN**
-
-- **Họ tên sinh viên:** .................................................  
-- **Mã SV:** .................................  
-- **Lớp:** .........................  
-- **Ngành:** .................................................  
-- **Tên đề tài:** ....................................................................................
-
-**Nội dung chỉnh sửa theo yêu cầu của Hội đồng:**
-
-| STT | Nội dung yêu cầu chỉnh sửa của HĐ | Nội dung chỉnh sửa của sinh viên | Trang |
-|-----|-----------------------------------|----------------------------------|-------|
-| 1   |                                   |                                  |       |
-| 2   |                                   |                                  |       |
-| 3   |                                   |                                  |       |
-| ... |                                   |                                  |       |
-
-**Hà Nội, ngày ... tháng ... năm 20...**  
-**SINH VIÊN**  
-(Ký và ghi rõ họ tên)
-
-**XÁC NHẬN CỦA GVHD**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 10: MẪU ĐỀ CƯƠNG ĐA/KLTN**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**  
-**Độc lập - Tự do - Hạnh phúc**
-
-**ĐỀ CƯƠNG ĐỒ ÁN/KHÓA LUẬN TỐT NGHIỆP**
-
-- **Họ tên sinh viên:** .................................................  
-- **Mã SV:** .................................  
-- **Lớp:** .........................  
-- **Ngành:** .................................................  
-- **Tên đề tài:** ....................................................................................
-- **GVHD:** .................................................
-
-**NỘI DUNG ĐỀ CƯƠNG**
-
-**Chương 1: MỞ ĐẦU**  
-1.1. Tính cấp thiết của đề tài  
-1.2. Mục tiêu nghiên cứu  
-1.3. Đối tượng và phạm vi nghiên cứu  
-1.4. Phương pháp nghiên cứu  
-1.5. Kết cấu của ĐA/KLTN
-
-**Chương 2: CƠ SỞ LÝ THUYẾT VÀ TỔNG QUAN**  
-2.1. Cơ sở lý thuyết  
-2.2. Tổng quan nghiên cứu trong và ngoài nước  
-2.3. Đánh giá tổng quan và khoảng trống nghiên cứu
-
-**Chương 3: NỘI DUNG VÀ PHƯƠNG PHÁP NGHIÊN CỨU**  
-3.1. Nội dung nghiên cứu  
-3.2. Phương pháp nghiên cứu  
-3.3. Kế hoạch thực hiện
-
-**Chương 4: KẾT QUẢ VÀ THẢO LUẬN**  
-4.1. Kết quả nghiên cứu  
-4.2. Thảo luận  
-4.3. Kiến nghị, đề xuất
-
-**Chương 5: KẾT LUẬN VÀ HƯỚNG PHÁT TRIỂN**  
-5.1. Kết luận  
-5.2. Hạn chế của đề tài  
-5.3. Hướng phát triển
-
-**TÀI LIỆU THAM KHẢO**
-
-**PHỤ LỤC**
-
-**Hà Nội, ngày ... tháng ... năm 20...**  
-**SINH VIÊN**  
-(Ký và ghi rõ họ tên)
-
-**DUYỆT CỦA GVHD**  
-(Ký và ghi rõ họ tên)
-
----
-
-### **PHỤ LỤC 11: MẪU NHẬT KÝ HƯỚNG DẪN ĐA/KLTN**
-
-**TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI**  
-**ĐƠN VỊ ĐÀO TẠO**
-
-**NHẬT KÝ HƯỚNG DẪN ĐỒ ÁN/KHÓA LUẬN TỐT NGHIỆP**
-
-- **Họ tên sinh viên:** .................................................  
-- **Mã SV:** .................................  
-- **Lớp:** .........................  
-- **Ngành:** .................................................  
-- **Tên đề tài:** ....................................................................................
-- **GVHD:** .................................................
-
-| STT | Ngày hướng dẫn | Nội dung hướng dẫn | Kết quả đạt được | Nhận xét của GVHD | Ký xác nhận SV |
-|-----|----------------|---------------------|------------------|-------------------|----------------|
-| 1   |                |                     |                  |                   |                |
-| 2   |                |                     |                  |                   |                |
-| 3   |                |                     |                  |                   |                |
-| ... |                |                     |                  |                   |                |
-
-**Hà Nội, ngày ... tháng ... năm 20...**  
-**GIẢNG VIÊN HƯỚNG DẪN**  
-(Ký và ghi rõ họ tên)
-
----
-
-## **HƯỚNG DẪN TRÌNH BÀY ĐA, KLTN**
-
-### **1. Quy định chung về trình bày**
-- **Khổ giấy:** A4 (210 x 297 mm).
-- **In một mặt**, độ dày: 30–60 trang (không kể phụ lục).
-- **Lề:** trên 3.5 cm, dưới 3 cm, trái 3.5 cm, phải 2 cm.
-- **Số trang:** đánh số ở giữa phía trên đầu mỗi trang.
-- **Bảng biểu/hình vẽ ngang:** đầu bảng là lề trái của trang.
-
-### **2. Đánh số mục và tiểu mục**
-- Số nhóm tối đa 4 chữ số (ví dụ: 4.1.2.1 = tiểu mục 1, nhóm tiểu mục 2, mục 1, chương 4).
-- Mỗi nhóm tiểu mục phải có ít nhất 2 tiểu mục.
-
-### **3. Bảng biểu, hình vẽ, công thức**
-- **Đánh số theo chương:** Hình 3.4 (hình thứ 4 trong chương 3).
-- **Trích dẫn nguồn:** "Nguồn: Tên cơ quan, năm".
-- **Đầu đề bảng:** ghi phía trên bảng.
-- **Đầu đề hình:** ghi phía dưới hình.
-- **Công thức:** thống nhất trong toàn văn bản, giải thích ký hiệu lần đầu xuất hiện.
-
-### **4. Viết tắt**
-- Chỉ viết tắt những từ/cụm từ dùng nhiều lần.
-- Lần đầu viết đầy đủ kèm chữ viết tắt trong ngoặc đơn.
-- Nếu nhiều chữ viết tắt, lập bảng danh mục (xếp ABC) ở đầu ĐA/KLTN.
-
-### **5. Tài liệu tham khảo và trích dẫn**
-- Mọi ý kiến, khái niệm không phải của tác giả phải được trích dẫn.
-- Không trích dẫn kiến thức phổ biến.
-- Trích dẫn gián tiếp phải nêu rõ nguồn trung gian.
-- **Trích dẫn ngắn** (< 2 câu hoặc 4 dòng): dùng dấu ngoặc kép.
-- **Trích dẫn dài:** tách thành đoạn riêng, lùi lề 2 cm.
-
-### **6. Sắp xếp tài liệu tham khảo**
-- **Xếp theo ABC tên tác giả:**
-  - Tác giả nước ngoài: xếp theo họ.
-  - Tác giả Việt Nam: xếp theo tên (giữ nguyên thứ tự họ tên).
-  - Không có tác giả: xếp theo tên cơ quan.
-- **Mẫu tài liệu tham khảo:**
-
-**Sách:**  
-> Tác giả hoặc cơ quan ban hành. (năm xuất bản). *Tên sách/ĐA/KLTN/báo cáo*. Nhà xuất bản. Nơi xuất bản.
-
-**Bài báo:**  
-> Tác giả. (năm công bố). "Tên bài báo". *Tên tạp chí hoặc sách*, tập(số), các số trang.
-
-**Tài liệu điện tử:**  
-> Tác giả. (năm). Tên tài liệu. Truy cập ngày ... tháng ... năm ..., từ [URL]
-
-### **7. Phụ lục**
-- Gồm số liệu, mẫu biểu, tranh ảnh, bản câu hỏi điều tra (nguyên bản).
-- Đánh số thứ tự: Phụ lục 1, Phụ lục 2...
-
----
-
-**HẾT QUY ĐỊNH**
-
----
-
-**Lưu ý:** Tài liệu này đã được tổng hợp đầy đủ từ nội dung gốc, bao gồm tất cả các điều khoản, bảng biểu và phụ lục.
+Tôi có thể hỗ trợ bạn tạo các bảng so sánh nhanh về mức độ xử lý vi phạm giữa các nhóm đối tượng không?

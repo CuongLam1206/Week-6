@@ -1,152 +1,100 @@
-# 🤖 HaUI Smart Assistant: Agentic RAG System
-> **Framework nghiên cứu và triển khai Chatbot thông minh hỗ trợ giải đáp quy chế đào tạo tại Trường Đại học Công nghiệp Hà Nội.**
+SmartVision là một nền tảng giám sát thông minh chuyên dụng cho việc phát hiện hỏa hoạn và khói thời gian thực. Hệ thống hỗ trợ kết nối không giới hạn số lượng camera, sử dụng mô hình **Vision Transformer (ViT)** hiện đại và tích hợp sâu với **Shinobi VMS** cùng **Telegram**.
 
-[![Framework](https://img.shields.io/badge/Architecture-Agentic--RAG-blue.svg)](#)
-[![LLM](https://img.shields.io/badge/LLM-OpenAI%20%7C%20Ollama%20%7C%20Gemini-green.svg)](#)
-[![Retrieval](https://img.shields.io/badge/Search-Hybrid--7%3A3-orange.svg)](#)
-[![OCR](https://img.shields.io/badge/OCR-Paddle%20%7C%20Docling-red.svg)](#)
+## ✨ Tính năng nổi bật
 
----
+-   🔥 **ViT Fire Detection**: Sử dụng mô hình `EdBianchi/vit-fire-detection` (Vision Transformer) cho độ nhạy bén và chính xác vượt trội so với các mô hình truyền thống.
+-   📸 **Hỗ trợ Đa Camera**: Giám sát đồng thời nhiều nguồn camera (Webcam, Camera IP, Camera Android...) thông qua kiến trúc xử lý song song.
+-   ⚡ **Quản lý Độc lập**: Mỗi camera có luồng AI, file log, và folder lưu trữ video bằng chứng riêng biệt.
+-   📲 **Cảnh báo Telegram Thông minh**: Gửi ảnh chụp bằng chứng kèm độ tin cậy (%) và video highlight 10 giây cho từng camera.
+-   🎥 **Dual-Stream Storage**:
+    -   `video_feed`: Luồng video có overlay AI (nhãn lửa, độ tin cậy %, v.v.).
+    -   `raw_feed`: Luồng video sạch để hệ thống VMS ghi hình lưu trữ.
+-   📊 **Dashboard Real-time**: Xem trạng thái FPS và báo động của tất cả các camera tại trang chủ.
 
-## 📖 Mục tiêu dự án
-Dự án tập trung vào việc xây dựng một hệ thống **Retrieval-Augmented Generation (RAG)** tiên tiến, có khả năng tự điều hướng (**Agentic**) để xử lý các tài liệu quy phạm pháp luật và đào tạo phức tạp. Hệ thống không chỉ trả lời các câu hỏi thông thường mà còn có khả năng trích xuất chính xác các phụ lục, biểu mẫu và tự học các từ chuyên môn đặc thù của HaUI.
+## 🏗️ High-Level Design (HLD)
 
----
-
-## 🌟 Đặc điểm kỹ thuật nổi bật
-
-### 1. Kiến trúc Agentic Đa tầng
-Hệ thống sử dụng một chuỗi các tác nhân thông minh (Agents) để xử lý yêu cầu:
-- **Router**: Phân loại ý định người dùng (Hỏi đáp, Chào hỏi, Dạy từ viết tắt, Trích xuất tài liệu).
-- **Rewriter**: Tinh chỉnh câu hỏi dựa trên lịch sử hội thoại để tăng độ chính xác tìm kiếm.
-- **Grader & Reranker**: Đánh giá và sắp xếp lại tài liệu để đảm bảo thông tin phù hợp nhất được đưa vào mô hình ngôn ngữ.
-- **Hallucination Checker**: Kiểm tra tính thực tế để đảm bảo câu trả lời hoàn toàn dựa trên bằng chứng từ tài liệu.
-
-### 2. Xử lý tài liệu chuyên sâu
-- **Legal-specific Chunking**: Chia tài liệu theo logic "Điều/Khoản/Phụ lục" giúp bảo toàn ngữ cảnh pháp lý tuyệt đối.
-- **Hybrid Retrieval**: Kết hợp Search ngữ nghĩa (Vector) và Search từ khóa (BM25) theo tỉ lệ vàng 7:3.
-- **Advanced OCR Pipeline**: Tích hợp PaddleOCR và Docling để xử lý chính xác các văn bản scan, bảng biểu phức tạp.
-
----
-
-## 🏗️ Kiến trúc hệ thống (High-Level Architecture)
+Kiến trúc hệ thống được thiết kế hướng đối tượng (Class-based) giúp quản lý đa luồng camera hiệu quả và dùng chung tài nguyên AI:
 
 ```mermaid
-graph TB
-    User[👤 Người dùng] --> UI[Gradio Web UI]
-    UI --> Router{Router Agent}
-    
-    %% Branching logic
-    Router -->|Greeting/OOS| Gen[Direct Response]
-    Router -->|Learn Slang| Slang[Slang Manager]
-    Router -->|Q&A| Pipeline[Agentic Pipeline]
-
-    subgraph "🤖 Agentic RAG Pipeline"
-        Pipeline --> Rewriter[Query Rewriter]
-        Rewriter --> Retrieval[Hybrid Retrieval<br/>(Vector + BM25)]
-        Retrieval --> Filter[Metadata Filter / Grader]
-        Filter --> Rerank[Cross-Encoder Reranker]
-        Rerank --> Generator[LLM Synthesis]
-        Generator --> HallCheck{Hallucination Check}
-        HallCheck -->|Failed| Pipeline
-        HallCheck -->|Passed| Final[Final Answer]
+graph TD
+    subgraph "Data Source"
+        Webcam["Webcam (Local)"]
+        IPCam["IP Camera (RTSP/HTTP)"]
+        DroidCam["Android Camera (MJPEG)"]
     end
-    
-    Final --> UI
-    Gen --> UI
-    Slang --> UI
+
+    subgraph "SmartVision Server (FastAPI)"
+        CH1["CameraHandler 1"]
+        CH2["CameraHandler 2"]
+        CHN["CameraHandler ..."]
+        
+        ViT["ViT Model (Shared)"]
+        
+        API["FastAPI Endpoints"]
+    end
+
+    subgraph "Action & Storage"
+        Logs["Hệ thống Log (.csv)"]
+        Videos["Lưu trữ Video (.avi)"]
+        Tele["Thông báo Telegram"]
+        Shinobi["Sự kiện Shinobi VMS"]
+    end
+
+    Webcam --> CH1
+    IPCam --> CH2
+    DroidCam --> CHN
+
+    CH1 & CH2 & CHN <--> ViT
+    CH1 & CH2 & CHN --> API
+    CH1 & CH2 & CHN --> Logs & Videos & Tele & Shinobi
 ```
 
----
+## ⚙️ Processing Pipeline
 
-## 🔄 Quy trình xử lý chi tiết (Workflows)
+Quy trình xử lý dữ liệu từ đầu vào đến đầu ra:
+1.  **Ingestion**: Thu thập luồng video đa nguồn thông qua OpenCV.
+2.  **Pre-processing**: Chuyển đổi Frame sang định dạng RGB/PIL tương thích với mô hình Transformer.
+3.  **Inference**: Sử dụng **ViT (Vision Transformer)** để phân loại hỏa hoạn với độ chính xác cao.
+4.  **Decision**: Kiểm tra ngưỡng tin cậy (Threshold) và áp dụng cơ chế lọc nhiễu thực tế.
+5.  **Alerting**: Kích hoạt cảnh báo tức thì qua Telegram (ảnh + video) và Shinobi Event.
+6.  **Archiving**: Ghi lại 10 giây video bằng chứng và cập nhật nhật ký cho từng camera.
 
-### Workflow 1: Trích xuất Phụ lục & Biểu mẫu
-*Dành cho các câu hỏi dạng: "Cho tôi xem phụ lục 07"*
-1. **Router**: Nhận diện đây là `document_generation`.
-2. **Retrieval**: Sử dụng query nguyên bản (không rewrite) để tìm kiếm chính xác từ khóa.
-3. **Filtering**: Áp dụng Metadata Filter dựa trên số hiệu Điều/Phụ lục đã được trích xuất khi indexing.
-4. **Output**: Trích xuất nguyên văn khối nội dung (không qua LLM tóm tắt) để đảm bảo tính pháp lý.
+## 🛠️ Cài đặt & Khởi chạy
 
-### Workflow 2: Hỏi đáp tổng hợp (General Q&A)
-*Dành cho các câu hỏi dạng: "Điều kiện xét tốt nghiệp KLTN là gì?"*
-1. **Rewriting**: "KLTN" được Slang Manager giải mã và tích hợp vào query mới.
-2. **Grading**: Loại bỏ các đoạn văn bản có điểm tương đồng thấp hoặc thông tin nhiễu.
-3. **Synthesis**: LLM tổng hợp thông tin từ nhiều nguồn tài liệu để đưa ra câu trả lời tự nhiên, chính xác.
-4. **Verification**: Hallucination Checker so khớp câu trả lời với tài liệu gốc trước khi hiển thị.
+### 1. Yêu cầu hệ thống
+-   Python 3.8+
+-   Môi trường ảo (khuyên dùng): `python -m venv venv`
+-   NVIDIA GPU (Tùy chọn, giúp tăng tốc độ xử lý ViT)
 
----
-
-## 🛠️ Thành phần cốt lõi (`src/`)
-
-| Thành phần | Đường dẫn | Chức năng |
-|:---|:---|:---|
-| **Agents** | `src/agents/` | Chứa logic của Router, Rewriter, Grader, Reranker, Generator. |
-| **Legal Chunker** | `src/legal_chunker.py` | Chia tài liệu theo định dạng văn bản luật (Điều, Phụ lục). |
-| **Slang Manager** | `src/slang_manager.py` | Quản lý và lưu trữ các từ viết tắt cục bộ (data/custom_abbreviations.json). |
-| **Vector Store** | `src/vector_store.py` | Quản lý ChromaDB và tích hợp Hybrid Search. |
-| **OCR Utility** | `src/document_loader.py` | Pipeline xử lý file PDF/DOCX tích hợp PaddleOCR. |
-
----
-
-## 🚀 Hướng dẫn triển khai
-
-### 1. Thiết lập môi trường
-Khuyến khích sử dụng Conda để quản lý môi trường ổn định nhất trên Windows:
+### 2. Cài đặt thư viện
 ```bash
-# Sử dụng script tự động
-setup_conda.bat
-```
-Hoặc cài đặt thủ công:
-```bash
-python -m venv venv
-venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. Cấu hình hệ thống
-Tạo file `.env` và điền các thông tin cần thiết:
+### 3. Cấu hình
+Tạo file `.env` tại thư mục gốc và cấu hình các camera:
 ```env
-LLM_PROVIDER=openai  # Hoặc ollama, gemini
-OPENAI_API_KEY=sk-...
-OPENAI_MODEL=gpt-4o-mini
-MONGO_URI=mongodb://localhost:27017/  # Lưu lịch sử chat
-ENABLE_HALLUCINATION_CHECK=True
+TELEGRAM_BOT_TOKEN=your_token
+TELEGRAM_CHAT_ID=your_id
+
+# Cấu hình Camera 1
+CAMERA_1_SOURCE=0
+CAMERA_1_NAME=Cong_Chinh
+
+# Cấu hình Camera 2
+CAMERA_2_SOURCE=http://192.168.1.100:8080/mjpeg
+CAMERA_2_NAME=San_Sau
 ```
 
-### 3. Khởi chạy
-- **Bước 1: Indexing tài liệu** (Run một lần khi có file mới trong `data/documents/`):
-  ```bash
-  python initialize.py
-  ```
-- **Bước 2: Chạy ứng dụng**:
-  ```bash
-  python demo.py
-  ```
-
----
+### 4. Khởi chạy
+```bash
+python -m src.realtime_server
+```
 
 ## 📁 Cấu trúc thư mục
-```text
-agentic_chatbot/
-├── src/
-│   ├── agents/          # Các nhân tố AI định hướng workflow
-│   ├── legal_chunker.py # Phân tách tài liệu theo cấu trúc pháp lý
-│   └── vector_store.py  # Engine tìm kiếm Hybrid
-├── data/
-│   ├── documents/       # Kho tài liệu (Markdown, PDF, Docx)
-│   └── slang.json       # Từ điển viết tắt tùy chỉnh
-├── vector_db/           # Database lưu trữ vector embeddings
-├── demo.py              # Giao diện người dùng Gradio
-└── config.py            # Cài đặt hệ thống (K, Threshold, v.v.)
-```
+-   `src/`: Mã nguồn chính của Server và module AI.
+-   `data/highlights/{cam_name}/`: Nơi lưu trữ video bằng chứng theo từng camera.
+-   `logs/fire_{cam_name}.csv`: Nhật ký hỏa hoạn riêng cho từng camera.
 
 ---
-
-## 👥 Đội ngũ thực hiện
-- **Tác giả**: [Họ tên của bạn]
-- **Tổ chức**: Trường Đại học Công nghiệp Hà Nội (HaUI)
-- **Liên hệ**: [Email/GitHub]
-
----
-*Dự án được phát triển với mục đích nâng cao trải nghiệm tra cứu quy định đào tạo cho sinh viên.*
+*Phát triển bởi SmartVision Team.*

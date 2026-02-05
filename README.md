@@ -1,122 +1,69 @@
-# SmartVision - Hệ thống Giám sát Hỏa hoạn AI Đa Camera
+# SmartVision - Event-Based AI Surveillance System
 
-SmartVision là một nền tảng giám sát thông minh chuyên dụng cho việc phát hiện hỏa hoạn và khói thời gian thực. Hệ thống hỗ trợ kết nối không giới hạn số lượng camera, sử dụng mô hình **Vision Transformer (ViT)** hiện đại và tích hợp sâu với **Shinobi VMS** cùng **Telegram**.
+SmartVision là một nền tảng giám sát thông minh **dựa trên sự kiện** (Event-Based), phát hiện các hành vi và tình huống bất thường trong thời gian thực. Hệ thống sử dụng **YOLOv11** cho person detection, **BoT-SORT** cho tracking, và các mô hình AI chuyên biệt cho từng loại sự kiện.
 
-## ✨ Tính năng nổi bật
+## ✨ Sự kiện phát hiện
 
--   🔥 **ViT Fire Detection**: Sử dụng mô hình `EdBianchi/vit-fire-detection` (Vision Transformer) cho độ nhạy bén và chính xác vượt trội so với các mô hình truyền thống.
--   📸 **Hỗ trợ Đa Camera**: Giám sát đồng thời nhiều ng# SmartVision - Hệ thống Giám sát Hỏa hoạn AI Đa Camera
+-   🚨 **Xâm nhập** (Intrusion): Phát hiện người vào khu vực cấm
+-   👊 **Đánh nhau / Bạo lực** (Violence): Nhận diện các hành vi hung hăng, đánh nhau
+-   🤕 **Ngã / Tai nạn** (Fall Detection): Phát hiện người bị ngã hoặc nằm bất động
+-   ⏱️ **Đứng lâu bất thường** (Loitering): Theo dõi người đứng/ngồi quá lâu tại một vị trí
+-   🌙 **Người lạ ban đêm** (Night Stranger): Cảnh báo khi có người xuất hiện trong khung giờ nguy hiểm (22:00-05:00)
 
-SmartVision là một nền tảng giám sát thông minh chuyên dụng cho việc phát hiện hỏa hoạn và khói thời gian thực. Hệ thống hỗ trợ kết nối không giới hạn số lượng camera, sử dụng mô hình **Vision Transformer (ViT)** hiện đại và tích hợp sâu với **Shinobi VMS** cùng **Telegram**.
+## 🔧 Công nghệ cốt lõi (Phase 1 - Completed)
 
-## ✨ Tính năng nổi bật
+-   **Person Detection**: YOLOv11n (Ultralytics 2024) - Nhanh hơn YOLOv8 22%, accuracy cao hơn
+-   **Object Tracking**: BoT-SORT - Tracking ID consistency vượt trội, sử dụng Kalman filter cải tiến
+-   **Multi-camera Support**: Kiến trúc đa luồng, xử lý song song không giới hạn camera
+-   **Event Logging**: CSV structured logging với timestamp, event type, confidence, video evidence
 
--   🔥 **ViT Fire Detection**: Sử dụng mô hình `EdBianchi/vit-fire-detection` (Vision Transformer) cho độ nhạy bén và chính xác vượt trội so với các mô hình truyền thống.
--   📸 **Hỗ trợ Đa Camera**: Giám sát đồng thời nhiều nguồn camera (Webcam, Camera IP, Camera Android...) thông qua kiến trúc xử lý song song.
--   ⚡ **Quản lý Độc lập**: Mỗi camera có luồng AI, file log, và folder lưu trữ video bằng chứng riêng biệt.
--   📲 **Cảnh báo Telegram Thông minh**: Gửi ảnh chụp bằng chứng kèm độ tin cậy (%) và video highlight 10 giây cho từng camera.
--   🎥 **Dual-Stream Storage**:
-    -   `video_feed`: Luồng video có overlay AI (nhãn lửa, độ tin cậy %, v.v.).
-    -   `raw_feed`: Luồng video sạch để hệ thống VMS ghi hình lưu trữ.
--   📊 **Dashboard Real-time**: Xem trạng thái FPS và báo động của tất cả các camera tại trang chủ.
-
-## 🏗️ High-Level Design (HLD)
-
-Kiến trúc hệ thống được thiết kế hướng đối tượng (Class-based) giúp quản lý đa luồng camera hiệu quả và dùng chung tài nguyên AI:
+## 🏗️ High-Level Architecture
 
 ```mermaid
-graph TD
-    subgraph "Data Source"
-        Webcam["Webcam (Local)"]
-        IPCam["IP Camera (RTSP/HTTP)"]
-        DroidCam["Android Camera (MJPEG)"]
+graph TB
+    subgraph "Camera Layer"
+        CAM[Camera RTSP/HTTP/Local]
     end
 
-    subgraph "SmartVision Server (FastAPI)"
-        CH1["CameraHandler 1"]
-        CH2["CameraHandler 2"]
-        CHN["CameraHandler ..."]
-        
-        ViT["ViT Model (Shared)"]
-        
-        API["FastAPI Endpoints"]
+    subgraph "AI Processing"
+        YOLOv11[YOLOv11 Person Detection]
+        BoTSORT[BoT-SORT Tracking]
+        EventEngine[Event Detection Engine]
     end
 
-    subgraph "Action & Storage"
-        Logs["Hệ thống Log (.csv)"]
-        Videos["Lưu trữ Video (.avi)"]
-        Tele["Thông báo Telegram"]
-        Shinobi["Sự kiện Shinobi VMS"]
+    subgraph "Output"
+        EventDB[(Event Logs)]
+        Telegram[Telegram Alerts]
+        Video[(Video Evidence)]
     end
 
-    Webcam --> CH1
-    IPCam --> CH2
-    DroidCam --> CHN
-
-    CH1 & CH2 & CHN <--> ViT
-    CH1 & CH2 & CHN --> API
-    CH1 & CH2 & CHN --> Logs & Videos & Tele & Shinobi
+    CAM --> YOLOv11
+    YOLOv11 --> BoTSORT
+    BoTSORT --> EventEngine
+    EventEngine --> EventDB & Telegram & Video
 ```
 
-## ⚙️ Full System Pipeline (Luồng tuần tự)
-
-Sơ đồ dưới đây mô tả chi tiết cách dữ liệu di chuyển từ Camera, qua Shinobi, tới AI Server và các kênh thông báo:
-
-```mermaid
-sequenceDiagram
-    participant Cam as Camera (MJPEG Source)
-    participant Shinobi as Shinobi VMS
-    participant AI as SmartVision AI Server
-    participant ViT as ViT Fire Model
-    participant User as Telegram/Dashboard
-
-    Note over Cam, Shinobi: Stream via HTTP/RTSP
-    Cam->>AI: Gửi luồng byte dữ liệu ảnh (MJPEG)
-    
-    rect rgb(240, 240, 240)
-        Note right of AI: CameraHandler (Multi-threading)
-        AI->>AI: Reconstruct Frame (imdecode)
-        AI->>AI: Draw Overlays (BBOX, Labels)
-    end
-
-    AI->>ViT: Trích xuất Frame & Phân loại (Inference)
-    ViT-->>AI: Trả về Label + Confidence (%)
-
-    alt Hỏa hoạn được phát hiện (Score > Threshold)
-        AI->>AI: Khởi tạo ghi hình Highlight (10s)
-        AI->>AI: Ghi log vào file .csv riêng
-        AI->>User: Gửi ảnh & Video bằng chứng qua Telegram
-        AI->>Shinobi: POST Webhook (Kích hoạt Sự kiện Toàn cục)
-    end
-
-    AI->>Shinobi: Trả về luồng Raw/AI Feed (StreamingResponse)
-    AI->>User: Hiển thị trạng thái trên Web Dashboard
-```
-
-### Chi tiết các bước xử lý:
-
-1.  **Ingestion & Standardizing**: `CameraHandler` kết nối tới Shinobi hoặc IP Cam, liên tục ghép các mảnh byte để tái tạo khung hình JPEG chuẩn.
-2.  **Concurrency Control**: Mỗi Camera chạy một luồng xử lý ảnh riêng để đảm bảo tốc độ khung hình (FPS) mượt mà nhất.
-3.  **Vision Transformer Pipeline**:
-    *   Sử dụng **ViT (Vision Transformer)**: Không chỉ soi vật thể, mô hình này hiểu bối cảnh của toàn bộ ảnh để phân biệt lửa thật với ánh đèn màu cam.
-    *   **Shared AI Resource**: Tất cả các camera dùng chung một bộ nhớ mô hình để tiết kiệm tài nguyên GPU/CPU.
-4.  **Action Logic**: Khi mô hình đạt ngưỡng tin cậy, hệ thống tự động thực hiện 4 hành động song song: Ghi Log, Lưu Video, Gửi Telegram, và báo về Shinobi.
-5.  **Output Delivery**: Server cung cấp luồng video độ trễ thấp thông qua `multipart/x-mixed-replace`, tương thích hoàn hảo với giao diện Shinobi Dashboard.
 ## 🚀 Tech Stack
 
-Dự án sử dụng tập hợp các công nghệ tiên tiến nhất để đảm bảo hiệu suất và độ chuẩn xác:
+| Component | Technology | Version |
+|-----------|-----------|---------|
+| **Person Detection** | YOLOv11 (Ultralytics) | 8.1.0 |
+| **Tracking** | BoT-SORT | Built-in |
+| **Web Framework** | FastAPI | 0.104.1 |
+| **Video Processing** | OpenCV | 4.8.1 |
+| **Notifications** | Telegram Bot API | - |
 
--   **AI/Deep Learning**: [Vision Transformer (ViT)](https://huggingface.co/EdBianchi/vit-fire-detection), [Hugging Face Transformers](https://huggingface.co/docs/transformers/index), [PyTorch](https://pytorch.org/).
--   **Xử lý Hình ảnh**: [OpenCV](https://opencv.org/), [Pillow (PIL)](https://python-pillow.org/).
--   **Backend**: [Python 3.8+](https://www.python.org/), [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/).
--   **Tích hợp**: [Telegram Bot API](https://core.telegram.org/bots/api), [Shinobi VMS API](https://shinobi.video/docs/api).
+**Upcoming (Phase 2-3):**
+- Violence Detection: ViT-based classifier (Hugging Face)
+- Fall Detection: MediaPipe Pose + LSTM
+- Zone Management: Shapely (Polygon-based intrusion detection)
 
 ## 🛠️ Cài đặt & Khởi chạy
 
 ### 1. Yêu cầu hệ thống
 -   Python 3.8+
 -   Môi trường ảo (khuyên dùng): `python -m venv venv`
--   NVIDIA GPU (Tùy chọn, giúp tăng tốc độ xử lý ViT)
+-   GPU (Tùy chọn, giúp tăng tốc độ xử lý)
 
 ### 2. Cài đặt thư viện
 ```bash
@@ -131,11 +78,11 @@ TELEGRAM_CHAT_ID=your_id
 
 # Cấu hình Camera 1
 CAMERA_1_SOURCE=0
-CAMERA_1_NAME=Cong_Chinh
+CAMERA_1_NAME=Main_Entrance
 
 # Cấu hình Camera 2
 CAMERA_2_SOURCE=http://192.168.1.100:8080/mjpeg
-CAMERA_2_NAME=San_Sau
+CAMERA_2_NAME=Parking_Lot
 ```
 
 ### 4. Khởi chạy
@@ -143,113 +90,36 @@ CAMERA_2_NAME=San_Sau
 python -m src.realtime_server
 ```
 
-## 📁 Cấu trúc thư mục
--   `src/`: Mã nguồn chính của Server và module AI.
--   `data/highlights/{cam_name}/`: Nơi lưu trữ video bằng chứng theo từng camera.
--   `logs/fire_{cam_name}.csv`: Nhật ký hỏa hoạn riêng cho từng camera.
+Server sẽ khởi động tại `http://0.0.0.0:5001`
 
----
-*Phát triển bởi SmartVision Team.*
-uồn camera (Webcam, Camera IP, Camera Android...) thông qua kiến trúc xử lý song song.
--   ⚡ **Quản lý Độc lập**: Mỗi camera có luồng AI, file log, và folder lưu trữ video bằng chứng riêng biệt.
--   📲 **Cảnh báo Telegram Thông minh**: Gửi ảnh chụp bằng chứng kèm độ tin cậy (%) và video highlight 10 giây cho từng camera.
--   🎥 **Dual-Stream Storage**:
-    -   `video_feed`: Luồng video có overlay AI (nhãn lửa, độ tin cậy %, v.v.).
-    -   `raw_feed`: Luồng video sạch để hệ thống VMS ghi hình lưu trữ.
--   📊 **Dashboard Real-time**: Xem trạng thái FPS và báo động của tất cả các camera tại trang chủ.
+## 📡 API Endpoints
 
-## 🏗️ High-Level Design (HLD)
-
-Kiến trúc hệ thống được thiết kế hướng đối tượng (Class-based) giúp quản lý đa luồng camera hiệu quả và dùng chung tài nguyên AI:
-
-```mermaid
-graph TD
-    subgraph "Data Source"
-        Webcam["Webcam (Local)"]
-        IPCam["IP Camera (RTSP/HTTP)"]
-        DroidCam["Android Camera (MJPEG)"]
-    end
-
-    subgraph "SmartVision Server (FastAPI)"
-        CH1["CameraHandler 1"]
-        CH2["CameraHandler 2"]
-        CHN["CameraHandler ..."]
-        
-        ViT["ViT Model (Shared)"]
-        
-        API["FastAPI Endpoints"]
-    end
-
-    subgraph "Action & Storage"
-        Logs["Hệ thống Log (.csv)"]
-        Videos["Lưu trữ Video (.avi)"]
-        Tele["Thông báo Telegram"]
-        Shinobi["Sự kiện Shinobi VMS"]
-    end
-
-    Webcam --> CH1
-    IPCam --> CH2
-    DroidCam --> CHN
-
-    CH1 & CH2 & CHN <--> ViT
-    CH1 & CH2 & CHN --> API
-    CH1 & CH2 & CHN --> Logs & Videos & Tele & Shinobi
-```
-
-## ⚙️ Processing Pipeline
-
-Quy trình xử lý dữ liệu từ đầu vào đến đầu ra:
-1.  **Ingestion**: Thu thập luồng video đa nguồn thông qua OpenCV.
-2.  **Pre-processing**: Chuyển đổi Frame sang định dạng RGB/PIL tương thích với mô hình Transformer.
-3.  **Inference**: Sử dụng **ViT (Vision Transformer)** để phân loại hỏa hoạn với độ chính xác cao.
-4.  **Decision**: Kiểm tra ngưỡng tin cậy (Threshold) và áp dụng cơ chế lọc nhiễu thực tế.
-5.  **Alerting**: Kích hoạt cảnh báo tức thì qua Telegram (ảnh + video) và Shinobi Event.
-6.  **Archiving**: Ghi lại 10 giây video bằng chứng và cập nhật nhật ký cho từng camera.
-## 🚀 Tech Stack
-
-Dự án sử dụng tập hợp các công nghệ tiên tiến nhất để đảm bảo hiệu suất và độ chuẩn xác:
-
--   **AI/Deep Learning**: [Vision Transformer (ViT)](https://huggingface.co/EdBianchi/vit-fire-detection), [Hugging Face Transformers](https://huggingface.co/docs/transformers/index), [PyTorch](https://pytorch.org/).
--   **Xử lý Hình ảnh**: [OpenCV](https://opencv.org/), [Pillow (PIL)](https://python-pillow.org/).
--   **Backend**: [Python 3.8+](https://www.python.org/), [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/).
--   **Tích hợp**: [Telegram Bot API](https://core.telegram.org/bots/api), [Shinobi VMS API](https://shinobi.video/docs/api).
-
-## 🛠️ Cài đặt & Khởi chạy
-
-### 1. Yêu cầu hệ thống
--   Python 3.8+
--   Môi trường ảo (khuyên dùng): `python -m venv venv`
--   NVIDIA GPU (Tùy chọn, giúp tăng tốc độ xử lý ViT)
-
-### 2. Cài đặt thư viện
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Cấu hình
-Tạo file `.env` tại thư mục gốc và cấu hình các camera:
-```env
-TELEGRAM_BOT_TOKEN=your_token
-TELEGRAM_CHAT_ID=your_id
-
-# Cấu hình Camera 1
-CAMERA_1_SOURCE=0
-CAMERA_1_NAME=Cong_Chinh
-
-# Cấu hình Camera 2
-CAMERA_2_SOURCE=http://192.168.1.100:8080/mjpeg
-CAMERA_2_NAME=San_Sau
-```
-
-### 4. Khởi chạy
-```bash
-python -m src.realtime_server
-```
+-   `GET /` - Dashboard status (FPS, số người phát hiện, camera info)
+-   `GET /video_feed/{cam_id}` - Luồng video với AI overlays (bounding boxes, tracking IDs)
+-   `GET /raw_feed/{cam_id}` - Luồng video gốc không có AI overlay
 
 ## 📁 Cấu trúc thư mục
--   `src/`: Mã nguồn chính của Server và module AI.
--   `data/highlights/{cam_name}/`: Nơi lưu trữ video bằng chứng theo từng camera.
--   `logs/fire_{cam_name}.csv`: Nhật ký hỏa hoạn riêng cho từng camera.
+-   `src/`: Mã nguồn chính của Server và module AI
+-   `data/events/{cam_name}/`: Video bằng chứng cho các sự kiện
+-   `logs/events_{cam_name}.csv`: Nhật ký sự kiện riêng cho từng camera
+
+## 📊 Current Status (Phase 1)
+
+✅ **Completed:**
+- YOLOv11 person detection integration
+- BoT-SORT multi-object tracking
+- Multi-camera architecture
+- Basic event logging infrastructure
+
+🚧 **In Progress (Phase 2):**
+- Intrusion detection (polygon zones)
+- Loitering detection (time-based tracking)
+- Night stranger detection (time-based rules)
+
+📅 **Planned (Phase 3):**
+- Violence detection (ViT classifier)
+- Fall detection (MediaPipe + LSTM)
 
 ---
-*Phát triển bởi SmartVision Team.*
+
+*Phát triển bởi SmartVision Team - Event-Based AI Surveillance.*

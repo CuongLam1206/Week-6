@@ -1,3 +1,5 @@
+# SmartVision - Hệ thống Giám sát Hỏa hoạn AI Đa Camera
+
 SmartVision là một nền tảng giám sát thông minh chuyên dụng cho việc phát hiện hỏa hoạn và khói thời gian thực. Hệ thống hỗ trợ kết nối không giới hạn số lượng camera, sử dụng mô hình **Vision Transformer (ViT)** hiện đại và tích hợp sâu với **Shinobi VMS** cùng **Telegram**.
 
 ## ✨ Tính năng nổi bật
@@ -58,6 +60,14 @@ Quy trình xử lý dữ liệu từ đầu vào đến đầu ra:
 4.  **Decision**: Kiểm tra ngưỡng tin cậy (Threshold) và áp dụng cơ chế lọc nhiễu thực tế.
 5.  **Alerting**: Kích hoạt cảnh báo tức thì qua Telegram (ảnh + video) và Shinobi Event.
 6.  **Archiving**: Ghi lại 10 giây video bằng chứng và cập nhật nhật ký cho từng camera.
+## 🚀 Tech Stack
+
+Dự án sử dụng tập hợp các công nghệ tiên tiến nhất để đảm bảo hiệu suất và độ chuẩn xác:
+
+-   **AI/Deep Learning**: [Vision Transformer (ViT)](https://huggingface.co/EdBianchi/vit-fire-detection), [Hugging Face Transformers](https://huggingface.co/docs/transformers/index), [PyTorch](https://pytorch.org/).
+-   **Xử lý Hình ảnh**: [OpenCV](https://opencv.org/), [Pillow (PIL)](https://python-pillow.org/).
+-   **Backend**: [Python 3.8+](https://www.python.org/), [FastAPI](https://fastapi.tiangolo.com/), [Uvicorn](https://www.uvicorn.org/).
+-   **Tích hợp**: [Telegram Bot API](https://core.telegram.org/bots/api), [Shinobi VMS API](https://shinobi.video/docs/api).
 
 ## 🛠️ Cài đặt & Khởi chạy
 
